@@ -1,0 +1,20 @@
+
+    Ce projet consiste à Pseudonymiser un extrait du corpus Enron qui contient 7875 emails. Puisque le besoin de
+réutilisation de corpus est un phénomène courant dans le domain du TAL, et la protection des informations
+personnelles est une obligation légale. L’anonymisation du corpus devient un sujet important. Notre but est de
+créer un corpus anonymisé dans un format proche du format initial en remplaçant des entités qui révèlent les
+informations personnelles (nom, prénom, adresse mail et entreprise) par le même type des entités.
+
+REQUIRED FILES
+
+-emails à anonymiser : scott-s
+
+USAGE
+
+>>python en_mail_anonymiseur.py  wixeU6ylV7H74mDG045dmmTG3WpANijk scott-s/personal Anonymisation_personal -1
+
+les arguments sont dans l'ordre le script, la clé opencalais (voici la miène), le dossier où trouver les mails,
+le dossier où seront écrits les fichiers anonymisés et enfin le nombre max de fichier à traiter (un nombre
+négatif entraine le traitement sur tous les fichiers)
+
+MEMBRES DU PROJET:YI CHUN SUNG / NICOLAS BENICHOU
