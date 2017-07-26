@@ -1,3 +1,4 @@
+INTRODUCTION DU SUJET
 
     Ce projet consiste à Pseudonymiser un extrait du corpus Enron qui contient 7875 emails. Puisque le besoin de
 réutilisation de corpus est un phénomène courant dans le domain du TAL, et la protection des informations
@@ -5,7 +6,7 @@ personnelles est une obligation légale. L’anonymisation du corpus devient un
 créer un corpus anonymisé dans un format proche du format initial en remplaçant des entités qui révèlent les
 informations personnelles (nom, prénom, adresse mail et entreprise) par le même type des entités.
 
-REQUIRED FILES
+FICHIER FOURNI 
 
 -emails à anonymiser : scott-s
 
